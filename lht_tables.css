@@ -22,16 +22,26 @@
    table,tbody,tr,td,th,caption{
       display: block;
    }
-}
-thead,h1{
-   display:none
-}
 
-caption{
-   color:white;
-   background-color: #333333;
-   font-size: 1.5em;
-   line-height: 2em;
+   thead,h1{
+      display:none
+   }
+
+   caption{
+      color:white;
+      background-color: #333333;
+      font-size: 1.5em;
+      line-height: 2em;
+   }
+
+   td{
+      border: 1px dotted gray;
+      color: rgb(11,12,145);
+      position: relative;
+      padding-left: 40%;
+      min-height: 40px;
+   }
+
 }
 
 /* =============================================
